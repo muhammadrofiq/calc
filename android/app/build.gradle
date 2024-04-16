@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.kalkulator_barkahi"
+    namespace "mobprog.kuliah3.barkah"
     defaultConfig {
-        applicationId "com.kalkulator_barkahi"
+        applicationId "mobprog.kuliah3.barkah"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

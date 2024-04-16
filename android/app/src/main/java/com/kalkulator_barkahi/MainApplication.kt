@@ -1,4 +1,4 @@
-package com.kalkulator_barkahi
+package mobprog.kuliah3.barkah
 
 import android.app.Application
 import com.facebook.react.PackageList

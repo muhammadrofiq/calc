@@ -1,4 +1,4 @@
-package com.kalkulator_barkahi
+package mobprog.kuliah3.barkah
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
