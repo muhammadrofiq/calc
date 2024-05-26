@@ -74,12 +74,12 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "mobprog.kuliah3.barkah"
+    namespace "mobprog.uts.barkah"
     defaultConfig {
-        applicationId "mobprog.kuliah3.barkah"
+        applicationId "mobprog.uts.barkah"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode 2
         versionName "1.0"
     }
     signingConfigs {

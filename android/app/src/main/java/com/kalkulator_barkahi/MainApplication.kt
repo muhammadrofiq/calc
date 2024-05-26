@@ -1,4 +1,4 @@
-package mobprog.kuliah3.barkah
+package mobprog.uts.barkah
 
 import android.app.Application
 import com.facebook.react.PackageList

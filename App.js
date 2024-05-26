@@ -13,6 +13,11 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
+          name="MainScreen"
+          component={MainScreen}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
           name="CreateCatatan"
           component={CreateCatatan}
           options={{headerShown: false}}
@@ -20,11 +25,6 @@ function App() {
         <Stack.Screen
           name="MyCatatan"
           component={MyCatatan}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="MainScreen"
-          component={MainScreen}
           options={{headerShown: false}}
         />
         <Stack.Screen

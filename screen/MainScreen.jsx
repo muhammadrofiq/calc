@@ -23,17 +23,37 @@ export default function MainScreen({navigation}) {
             color: 'white',
             marginBottom: 4,
           }}>
-          {'Nama :   '}
+          {'Nama :  Barkah Isnaeni'}
         </Text>
         <Text
           style={{
             fontSize: 18,
             color: 'white',
           }}>
-          {'NIM    :  '}
+          {'NIM    :  0102523708'}
         </Text>
       </View>
       <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('CreateCatatan');
+        }}
+        style={{
+          marginTop: 24,
+          backgroundColor: '#a3a3a3',
+          borderRadius: 12,
+          paddingHorizontal: 24,
+          paddingVertical: 12,
+        }}>
+        <Text
+          style={{
+            color: 'white',
+            fontSize: 16,
+            fontWeight: '300',
+          }}>
+          Catatan
+        </Text>
+      </TouchableOpacity>
+      {/* <TouchableOpacity
         onPress={() => {
           navigation.navigate('CalcScreen');
         }}
@@ -52,7 +72,7 @@ export default function MainScreen({navigation}) {
           }}>
           Calculator
         </Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </View>
   );
 }

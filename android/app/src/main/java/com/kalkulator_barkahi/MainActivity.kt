@@ -1,4 +1,4 @@
-package mobprog.kuliah3.barkah
+package mobprog.uts.barkah
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
